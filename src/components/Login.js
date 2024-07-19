@@ -3,8 +3,10 @@ import Header from './Header'
 import {checkValidate} from "../utils/validate";
 import { createUserWithEmailAndPassword ,signInWithEmailAndPassword  } from "firebase/auth";
 import {auth} from "../utils/firebase";
+
 const Login = () => {
- 
+
+
   const [isSignIn,setIsSignIn]=useState(true);
   const [errorMessge,setErrorMessage]=useState('');
 
@@ -22,16 +24,17 @@ const Login = () => {
     const message= checkValidate(email.current.value,password.current.value);
     setErrorMessage(message);
      
-    if(message!='Valid'){
+    if(message!=='Valid'){
       return;
     }
 
     if(!isSignIn){
-      createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
+      createUserWithEmailAndPassword(auth,email.current.value,password.current.value)
       .then((userCredential) => {
     // Signed up 
        const user = userCredential.user;
-       console.log(user);
+      
+       console.log('User signed up:', user);
     // ...
        })
   .catch((error) => {
@@ -43,15 +46,15 @@ const Login = () => {
     }
     else{
         //Sign In Logic
-        signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    // Signed in 
-    const user = userCredential.user;
-    // ...
-  })
+        signInWithEmailAndPassword(auth, email.current.value, password.current.value)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          console.log('User signed in:', user);
+        })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
+    setErrorMessage(errorMessage);
   });
     }
   }
