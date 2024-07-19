@@ -44,7 +44,7 @@ const Login = () => {
         // An error occurred
         // ...
       })
-      navigate('/browse');
+     
        console.log('User signed up:', user);
     // ...
        })
@@ -60,7 +60,7 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email.current.value, password.current.value)
         .then((userCredential) => {
           const user = userCredential.user;
-          navigate('/browse');
+          
           console.log('User signed in:', user);
         })
   .catch((error) => {
