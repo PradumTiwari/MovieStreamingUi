@@ -13,7 +13,7 @@ const Header = () => {
   const dispatch=useDispatch();
 
   useEffect(()=>{
-    onAuthStateChanged(auth, (user) => {
+   const unsubcribe= onAuthStateChanged(auth, (user) => {
       if (user) {
         const {uid,email,displayName} = user;
        
@@ -28,6 +28,9 @@ const Header = () => {
         navigate('/');
       }
     });
+  //Unsubcribe when component is unmount 
+    return ()=>unsubcribe();
+
   },[])
   return (
     <div className='absolute w-screen h-7  px-8 py-2 bg-gradient-to-b from-black z-10'>
