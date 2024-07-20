@@ -3,15 +3,18 @@ import { API_OPTIONS } from '../utils/constants';
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
 import Header from './Header';
+import {addNowPlaying} from '../utils/movieSlice';
+
 
 const Browse = () => {
   const dispatch=useDispatch();
   const navigate=useNavigate();
-
+  
   const getNowPlaying=async()=>{
     const response=await fetch('https://api.themoviedb.org/3/movie/now_playing?&page=1', API_OPTIONS);
     const data=await response.json();
     console.log(data.results);
+    dispatch(addNowPlaying(data.results));
   }
 
   useEffect(()=>{
