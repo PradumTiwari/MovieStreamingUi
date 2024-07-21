@@ -11,8 +11,8 @@ const Browse = () => {
  useNowPlayingMovies();
 
   return (
-    <div className='w-full'>
-      <div className='h-16 border-slate-600'> {/* Adjust height for Header */}
+    <div className='w-screen h-full'>
+      <div className=''> {/* Adjust height for Header */}
         <Header />
       <MainContainer/>
       <SecondaryContainer/>
