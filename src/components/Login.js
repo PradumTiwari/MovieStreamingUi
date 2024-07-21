@@ -45,7 +45,7 @@ const Login = () => {
         // ...
       })
      
-       console.log('User signed up:', user);
+     
     // ...
        })
   .catch((error) => {
