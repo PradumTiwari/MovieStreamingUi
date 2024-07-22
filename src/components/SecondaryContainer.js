@@ -5,6 +5,8 @@ const SecondaryContainer = () => {
   const movies=useSelector(store=>store.movies?.nowPlayingMovies);
   const popularMovies=useSelector(store=>store.movies?.popularMovies);
   const topRated=useSelector(store=>store.movies?.topRatedMovies);
+  const upComingMovies=useSelector(store=>store.movies?.upcomingMovies);
+  console.log("Upcoming",upComingMovies);
   console.log("Top Rated",topRated);
   console.log("Now Plaing",movies);
   console.log("Popular Movies",popularMovies);
@@ -14,7 +16,7 @@ const SecondaryContainer = () => {
      {movies&& <MovieList title={"Now Playing"} movies={movies}/>}
      {topRated&& <MovieList title={"Top Rated Movies"} movies={topRated}/>}
      {popularMovies&& <MovieList title={"Popular Movies"} movies={popularMovies}/>}
-     {movies&& <MovieList title={"Kid Movies"} movies={movies}/>}
+     {movies&& <MovieList title={"Upcoming Movies"} movies={upComingMovies}/>}
     </div>
     </div>
   )
