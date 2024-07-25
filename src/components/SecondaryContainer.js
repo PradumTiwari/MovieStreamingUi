@@ -12,7 +12,7 @@ const SecondaryContainer = () => {
   console.log("Popular Movies",popularMovies);
   return (
     <div className='bg-black '>
-      <div className='-mt-[350px] pl-12 relative z-20 '>
+      <div className='mt-0  md:-mt-[350px] pl-12 relative z-20 '>
      {movies&& <MovieList title={"Now Playing"} movies={movies}/>}
      {topRated&& <MovieList title={"Top Rated Movies"} movies={topRated}/>}
      {popularMovies&& <MovieList title={"Popular Movies"} movies={popularMovies}/>}
