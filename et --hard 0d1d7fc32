@@ -1,0 +1,113 @@
+[33mcommit 89ed16638009b2a22b56eeeb0622b60b112cfcaf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Thu Jul 25 20:27:45 2024 +0530
+
+    Lastly almost
+
+[33mcommit 4370eee068e4e60706dcf5ab2b600d7bf065980b[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Thu Jul 25 20:20:53 2024 +0530
+
+    Lastly
+
+[33mcommit a29b64780a3e372755a6bc6cf210e06f445bb8fd[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Thu Jul 25 18:26:46 2024 +0530
+
+    commit
+
+[33mcommit 36127651df739c5ffaff970546308c9632859d1f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Thu Jul 25 18:24:14 2024 +0530
+
+    Nothing
+
+[33mcommit ddb993f4d5c4547264837b7594d918a1becfeacb[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Thu Jul 25 17:56:57 2024 +0530
+
+    Made Gpt Layout PAge
+
+[33mcommit 10e926c18b52ee37e80f029fd3f4599d640244a0[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Mon Jul 22 13:06:12 2024 +0530
+
+    Full Procedure How i Creating A Hook and using it to update list
+
+[33mcommit 9f768f9e190821ff058399c1e70ccada0328f339[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Mon Jul 22 12:52:43 2024 +0530
+
+    Almost Done with Browse Page done with different Lists
+
+[33mcommit 9052624afa11065d07893d710cc14b8a3dc0c2bf[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Sun Jul 21 14:04:53 2024 +0530
+
+    Added trailer Video
+
+[33mcommit 64e6c5276bb404f96bd219579eef7a30d1e4defd[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Sun Jul 21 13:30:25 2024 +0530
+
+    Added all New Customiztion and optimized a little bit
+
+[33mcommit 691998fee560d482fbfd52e8694572af27bb44be[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Sun Jul 21 00:24:53 2024 +0530
+
+    Added MovieSlice and Dispatch AddNowPlaying
+
+[33mcommit cafdb142d8415b27120c925c46eac9096c407111[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Sun Jul 21 00:03:50 2024 +0530
+
+    Added the SignUp And SignIn Logic Inside Header As it is Present EveryWhere And Log the Movie data
+
+[33mcommit 4b65a14eec36ab76889f645600a6e51021b2a11e[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Fri Jul 19 16:33:29 2024 +0530
+
+    Added a Hygiene Practice to Unsubsribe When the Component Unmounts
+
+[33mcommit a15b46d2698f66d352c6784863d5530ca61c70f8[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Fri Jul 19 15:55:28 2024 +0530
+
+    Added Our authStateChange To header and Now we cannot go to login without our SignIn
+
+[33mcommit 453fef8c4927cc0174e721bec0792015f01d298a[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Fri Jul 19 14:29:15 2024 +0530
+
+    Navigation Done on the Basis of Authentication
+
+[33mcommit 9461789c800bd2b11f0afb15c5cf6bb63e84e62a[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Fri Jul 19 12:56:39 2024 +0530
+
+    Created Redux Store with UserSlice
+
+[33mcommit 1e42e3b8561cf8a6050cc37ee5cbde9edfd7eafe[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Fri Jul 19 01:43:40 2024 +0530
+
+    Added Firebase authentication for Signup and SignIn Logic
+
+[33mcommit eb20dcad011bc33315bf9dc648983f3b3ea87477[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Wed Jul 17 00:45:57 2024 +0530
+
+    Form Validation Done
+
+[33mcommit 167acf2739c2cf76866623dc6b9f2fdd7cffb453[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Tue Apr 9 00:58:04 2024 +0530
+
+    Started App
+
+[33mcommit 8c8305c73191d74e4a2c3dfbe707ba7682fada3f[m
+Author: Pradum <satendarpradum@gmail.com>
+Date:   Tue Apr 9 00:32:26 2024 +0530
+
+    Initialize project using Create React App
